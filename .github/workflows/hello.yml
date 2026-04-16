@@ -3,10 +3,11 @@ on: push
 jobs:
   say-hello:
     runs-on: ubuntu-latest
-  say-byee:
-    runs-on: ubuntu-latest
     steps:
       - name:  Print message
         run: echo "Hello, github Actions!"
+  say-byee:
+    runs-on: ubuntu-latest
+    steps:
       - name:  Print message
         run: echo "Bye, github Actions!"
