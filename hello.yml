@@ -20,8 +20,9 @@ jobs:
     steps:
       - name:  Print message
         run: echo "Hello, github Actions!"
+
   say-byee:
-  needs: say-hello
+    needs: say-hello
     runs-on: ubuntu-latest
     steps:
       - name:  Print message
